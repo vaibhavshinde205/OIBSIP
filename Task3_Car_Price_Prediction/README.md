@@ -85,7 +85,7 @@ Model shows strong ability to predict used car prices.
 ```bash
 Task3_Car_Price_Prediction/
 ├── car_data.csv
-├── car_price_prediction.py
+├── OIBSIP_Task3_car_price_prediction.ipynb
 └── README.md
 ```
 
