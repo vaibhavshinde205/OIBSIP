@@ -72,9 +72,11 @@ Model shows strong ability to predict used car prices.
 
 # How to Run
 
-```bash
-python car_price_prediction.py
-```
+1. Open the project folder. 
+2. Launch Jupyter Notebook or open the notebook in Google Colab. 
+3. Open the `.ipynb` file for the task. 
+4. Upload the required dataset file when prompted (if not already included). 
+5. Click **Runtime → Run All** (Colab) or **Run → Run All Cells** (Jupyter).
 
 ---
 
