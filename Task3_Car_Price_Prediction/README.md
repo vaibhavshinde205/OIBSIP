@@ -1,48 +1,62 @@
-# Task 2 – Unemployment Analysis with Python
+# Task 3 – Car Price Prediction
 
 This project is part of the **Data Science Internship at OASIS INFOBYTE**.  
-The goal of this task is to analyze unemployment trends using data analysis and visualization techniques.
+The goal of this task is to build a Machine Learning regression model that predicts the selling price of used cars based on vehicle features.
 
 ---
 
 # Objective
-To analyze unemployment rates and understand trends, patterns, and variations using Python.
+To develop a regression model that accurately predicts the selling price of a car using factors such as present price, car age, fuel type, transmission type, and kilometers driven.
 
 ---
 
 # Dataset Information
 
-The dataset contains information related to unemployment rates across different regions and time periods.
+The dataset contains details of used cars.
 
-### Features Typically Included
-- Region  
-- Date  
-- Estimated Unemployment Rate (%)  
-- Estimated Employed  
-- Estimated Labour Participation Rate (%)  
+### Features Used
+- Present Price  
+- Driven_kms  
+- Fuel Type  
+- Selling Type  
+- Transmission  
+- Owner  
+- Car Age (engineered from Year)
 
-Target of analysis: **Unemployment Rate Trends**
+Target variable: **Selling Price**
 
 ---
 
-# Data Analysis Workflow
+# Machine Learning Workflow
 
 1. Load the dataset  
-2. Handle missing values  
-3. Convert date column to datetime format  
-4. Perform exploratory data analysis (EDA)  
-5. Visualize unemployment trends over time  
-6. Compare unemployment across regions  
-7. Interpret findings  
+2. Remove unnecessary columns  
+3. Perform feature engineering (Car Age)  
+4. Encode categorical variables  
+5. Split dataset into training and testing sets  
+6. Train Random Forest Regressor  
+7. Evaluate model performance  
+8. Visualize feature importance  
+9. Plot Actual vs Predicted prices  
 
 ---
 
-# Analysis Insights
+# Model Used
+**Random Forest Regressor**
 
-- Identified changes in unemployment rate over time  
-- Observed regional variations  
-- Visualized trends using graphs and charts  
-- Understood the impact of external events on employment patterns  
+Reason for using:
+- Handles nonlinear relationships  
+- Works well with mixed data types  
+- Provides feature importance  
+- High prediction accuracy  
+
+---
+
+# Results
+
+- **Mean Absolute Error (MAE):** 0.64  
+- **R² Score:** 0.958  
+Model shows strong ability to predict used car prices.
 
 ---
 
@@ -52,13 +66,14 @@ Target of analysis: **Unemployment Rate Trends**
 - NumPy  
 - Matplotlib  
 - Seaborn  
+- Scikit-learn  
 
 ---
 
 # How to Run
 
 ```bash
-python unemployment_analysis.py
+python car_price_prediction.py
 ```
 
 ---
@@ -66,9 +81,9 @@ python unemployment_analysis.py
 # File Structure
 
 ```bash
-Task2_Unemployment_Analysis/
-├── unemployment_data.csv
-├── unemployment_analysis.py
+Task3_Car_Price_Prediction/
+├── car_data.csv
+├── car_price_prediction.py
 └── README.md
 ```
 
