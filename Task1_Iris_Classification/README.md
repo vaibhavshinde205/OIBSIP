@@ -87,5 +87,4 @@ Task1_Iris_Classification/
 
 ---
 
-#  Author
-**Vaibhav Rajendra Shinde**
+
