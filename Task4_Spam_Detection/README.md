@@ -80,7 +80,7 @@ Reason for using:
 ```bash
 Task4_Spam_Detection/
 ├── spam.csv
-├── spam_detection.py
+├── OIBSIP_Task4_email_Classification.ipynb
 └── README.md
 ```
 
