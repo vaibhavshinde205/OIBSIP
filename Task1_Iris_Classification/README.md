@@ -69,10 +69,12 @@ Reason for using:
 ---
 
 #  How to Run
+1. Open the project folder. 
+2. Launch Jupyter Notebook or open the notebook in Google Colab. 
+3. Open the `.ipynb` file for the task. 
+4. Upload the required dataset file when prompted (if not already included). 
+5. Click **Runtime → Run All** (Colab) or **Run → Run All Cells** (Jupyter).
 
-```bash
-python iris_classification.py
-```
 
 ---
 
@@ -81,7 +83,7 @@ python iris_classification.py
 ```bash
 Task1_Iris_Classification/
 ├── Iris.csv
-├── iris_classification.py
+├── OIBSIP_Task1_Iris_Classification.ipynb
 └── README.md
 ```
 
